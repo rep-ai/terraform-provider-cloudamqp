@@ -67,7 +67,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:7a573a3426fb787e1d6e103ee3cf450dcfccbf8d1881ffbd66ceb1ede8c179a4"
+  digest = "1:cee09b9f187474e261b6e999b55fe3f989e584aeb1dbdcc1555f21c6e7666cce"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -109,8 +109,8 @@
     "service/sts/stsiface",
   ]
   pruneopts = "UT"
-  revision = "8b44c74850c51562a4360837e9e4d6e7c47b7d81"
-  version = "v1.25.11"
+  revision = "15cbab53359072d0801eb32d16d0a406207e8716"
+  version = "v1.25.14"
 
 [[projects]]
   branch = "master"
@@ -642,14 +642,14 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:ccd3d665276bdd47801eb85e30e322f424c97d10b4f5db03cb9c57ed65b8b6d3"
+  digest = "1:b1444bc98b5838c3116ed23e231fee4fa8509f975abd96e5d9e67e572dd01604"
   name = "golang.org/x/exp"
   packages = [
     "apidiff",
     "cmd/apidiff",
   ]
   pruneopts = "UT"
-  revision = "a1355ae1e2c30eb123356c2a35c2f420652999f9"
+  revision = "69215a2ee97e88b0d79235b7aae60dc2bfa3d034"
 
 [[projects]]
   branch = "master"
@@ -664,7 +664,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:bf89144f888e7e621c7eaba03e68c5426b22fb008bf70d2ebf417beea541bb58"
+  digest = "1:2ce67db9864088dee35dab5967f041d2b4ae1c7440dabb44542c1847933fd872"
   name = "golang.org/x/net"
   packages = [
     "context",
@@ -677,7 +677,7 @@
     "trace",
   ]
   pruneopts = "UT"
-  revision = "491137f692577e390404f177a0515c9f86f79754"
+  revision = "da9a3fd4c5820e74b24a6cb7fb438dc9b0dd377c"
 
 [[projects]]
   branch = "master"
@@ -728,7 +728,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:007c564a388928f33c65f9b2ca484d9c0c69eea919f0646c8ed1d5cf38213b26"
+  digest = "1:510e6ae2c0a8ee4d7c3d3cd8e6a4734654d8216ee8602814e24f25aec62054bd"
   name = "golang.org/x/tools"
   packages = [
     "cmd/goimports",
@@ -748,9 +748,10 @@
     "internal/imports",
     "internal/module",
     "internal/semver",
+    "internal/span",
   ]
   pruneopts = "UT"
-  revision = "5fa5b1782b2c597541464a432bc01e7ff6de2c19"
+  revision = "e4d7c6f25b8e08c4784d6585835a053ae0ad53bb"
 
 [[projects]]
   digest = "1:2c198c7697dfdca1572813b46d0ec54356c1338f49c6fe71da05b98fa9a803e0"
